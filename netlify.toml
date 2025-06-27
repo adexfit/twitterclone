@@ -1,7 +1,4 @@
-[build]
-    publish = "/frontend/dist"
-    functions= "./functions/"
-    base="/"
+
 [[redirects]]
     from = "/api/*"
     to = "/.netlify/functions/:splat"
