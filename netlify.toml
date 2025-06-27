@@ -1,6 +1,7 @@
 [build]
-    publish = "dist/"
+    publish = "/build"
     functions= "./functions/"
+    base="/"
 [[redirects]]
     from = "/api/*"
     to = "/.netlify/functions/:splat"
